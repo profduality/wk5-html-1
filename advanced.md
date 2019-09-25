@@ -1,1 +1,1 @@
-By changing the settings for this github repository, activating its Github Pages option on the master branch, I was able to make the index.html appear as a hosted webpage at: <a href="https://ccsu-te350.github.io/wk5-html-1/">https://ccsu-te350.github.io/wk5-html-1/</a>
+By changing the settings for this github repository, activating its Github Pages option on the master branch, I was able to make the index.html appear as a hosted webpage at: <a href="https://ccsu-te350.github.io/wk5-html-1/" target="_blank">https://ccsu-te350.github.io/wk5-html-1/</a>
