@@ -2,9 +2,10 @@
 <html>
 <head>
 <title>Jack's First HTML Webpage</title>
-<h1> Jack's First HTML Webpage </h1>
+<!-- h1> Jack's First HTML Webpage </h1> NOTE: heading tags go in the body section of an html page, not the head section -->
 </head>
 <body style="background-color:yellow;">
+<main>
   <img src=https://live.staticflickr.com/1686/24707027581_30abc74053_b.jpg width="600" height ="300" alt="Barry Allen aka The Flash">
 <h1>Life is like locomotion.</h1>
 <h2>If you're not moving, you're not living.</h2>
@@ -15,15 +16,22 @@
 <a href="https://en.wikipedia.org/wiki/The_Flash_(2014_TV_series)"> Learn more about the Flash!</a>
 <button> My first button! </button>
 <h3> Other Cool Superheroes:</h3>
-  <li> Aquaman (Arthur Curry)
-  <li> Hawkeye (Clint Barton)
-  <li> Green Arrow (Oliver Queen)
-  <li> Batman (Bruce Wayne)
-  <li> Superman (Kal-El / Clark Kent)
+<!-- NOTE: all <li> - list item tags need closing tags - Also all <li> tags need to be within a larger list of type container - e.g., ordered list <ol>, as follows -->
+<ol>
+  <li> Aquaman (Arthur Curry)</li>
+  <li> Hawkeye (Clint Barton)</li>
+  <li> Green Arrow (Oliver Queen)</li>
+  <li> Batman (Bruce Wayne)</li>
+  <li> Superman (Kal-El / Clark Kent)</li>
+</ol>
 <h3> Lame Superheroes:</h3>
-  <ul> Plastic Man
-  <ul> Thunder Guy
-  <ul> Atom
-  </main>
+<!-- ul is the container for unordered lists, but within that, each element has to be in an <li> - list item, as follows -->
+<ul> 
+  <li>Plastic Man</li>
+  <li> Thunder Guy</li>
+  <li> Atom</li>
+</ul>
+<!-- I did not see the opener for the main tag, so added it in to the top of the page, because this is an excellent html tag to use - for more on it, see: https://www.w3schools.com/tags/tag_main.asp -->
+</main>
 </body>
 </html>
